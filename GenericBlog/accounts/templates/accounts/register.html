@@ -1,0 +1,14 @@
+{% extends 'base_layout.html' %}
+{% block content %}
+    <div class="contentcontainer">
+        <h1 class="articles">Register</h1>
+        <div class="article-content">
+            <form class="site-form" action="./register" method="post">
+                {% csrf_token %}
+                {{form}}
+
+                <input type="submit" value="Register">
+            </form>
+        </div>
+    </div>
+{% endblock %}

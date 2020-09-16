@@ -1,0 +1,134 @@
+body{
+    background-color: #0f121f;
+    background-image: url(mountains.jpg);
+    background-repeat-y: no-repeat;
+    color: #fff;
+}
+h1, h2, h3, h4, h5{
+    font-weight: normal;
+    margin: 0;
+}
+a, a:hover, a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.navwrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 2%;
+
+}
+ul{
+    padding-left:5px;
+    padding-right:5px;
+
+}
+
+nav{
+    height: 100%;
+    background-color: #212121;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+nav li{
+    display: inline-block;
+    flex-direction: row;
+    margin: 5px;
+
+    list-style: none;
+    overflow:hidden;
+}
+nav button{
+    background: none;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    font-size: 1em;
+
+}
+.site-form{
+
+    padding: 10px;
+}
+
+.site-form input, .site-form textarea{
+    display: block;
+    padding: 10px;
+}
+
+
+.contentcontainer{
+    background-color: #212121;
+    width: 40%;
+    margin: auto;
+    border-radius: 25px;
+}
+.articles{
+    padding: 20px;
+    display: grid;
+    grid-gap: 30px;
+
+
+}
+
+.article{
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 40px;
+}
+.article-content{
+    margin-top: 20px;
+    padding: 50px;
+
+}
+a.highlight{
+
+}
+
+.article-text{
+    padding-top: 30px;
+    align-text: center;
+
+}
+.fit{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+body *{
+    font-family: Ubuntu;
+}
+
+.helptext, .helptext ul{
+    margin: 0 auto 20px;
+    color: #bbb;
+    font-size: 14px;
+    display: block;
+}
+
+.errorlist li{
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid #FF5722;
+    margin: 10px 0;
+    color: #FF5722
+}
+
+.errorlist{
+    padding: 0;
+}
+
+.site-form input[type="submit"]{
+    background: #5468ff;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
